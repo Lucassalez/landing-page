@@ -1,0 +1,27 @@
+.banner{
+	background-image: linear-gradient(284deg, rgb(134 166 177 / 18%) 43%, rgb(142 112 112 / 31%) 73%),url(../images/banner2.jpg);
+	height:65vh;
+	background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+	margin: 0;
+}
+
+.banner h2{
+	background-color: black;
+    color: white;
+    padding: 16px;
+    margin: 24px auto;
+}
+#navbarNav{
+	justify-content: center; 
+}
+.top{
+	background-color: black;
+	color:white;
+}

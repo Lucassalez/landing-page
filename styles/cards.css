@@ -1,0 +1,31 @@
+.card{
+ 	padding: 16px;
+    width: 300px;
+    border-radius: 7px;
+    box-shadow: rgb(0 0 0 / 51%) 4px 2px 4px 2px;
+    justify-self:center;
+    text-align: center;
+}
+.card img{
+	width: 250px;
+    margin:0 auto;
+}
+.cards{
+	display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    margin: 48px 0;
+    text-align:center;     
+}
+
+@media (min-width: 992px) {
+.cards{
+	grid-template-columns: 1fr 1fr;
+ }
+}
+
+@media (min-width: 1200px) {
+.cards{
+	grid-template-columns: 1fr 1fr 1fr;
+ }
+}

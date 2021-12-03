@@ -1,0 +1,36 @@
+@import url(banner.css);
+@import url(buttons.css);
+@import url(cards.css);
+@import url(footer.css);
+@import url(le_lab.css);
+h1{
+	color:black;
+}
+a{
+	text-decoration: none;
+}
+body{
+	margin: 0;
+}
+div{
+	text-align: center;
+}
+div h2{
+	    margin-top: 16px;
+}
+.marquee{
+	background-image: url("../images/noel.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.marquee h2{
+	padding: 16px 0 16px 0;
+}
+.end{
+	background-color: #2d3135;
+	font-size: 0.75em;
+	color:hsl(0 0% 100%);
+}
+.end p{
+	margin:0;
+}
